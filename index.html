@@ -1,315 +1,91 @@
-<!-- Well hello there... -->
-    <!DOCTYPE html>
-    <html lang="en">
 
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand">Erika <i class="fa fa-coffee" style="font-size:20px;color:white;"></i>
-              <i class="fa fa-keyboard-o" style="font-size:20px;color:white;"></i>
-              <i class="fa fa-laptop" style="font-size:20px;color:white;"></i>
-            </a>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#about">ABOUT</a></li>
-              <li><a href="#work">PROJECTS</a></li>
-              <li><a href="#contact">CONTACT</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+<!doctype html>
 
-      <head>
-        <title>Erika Vazquez</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cinzel">
-        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Rokkitt">
-        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Share+Tech+Mono">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
 
-      </head>
+  <title>Sprint Challenge - Home</title>
 
-      <style>
-      h3{
-        font-family:'cinzel';
-        letter-spacing: 5px;
-        font-size: 50px;
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+  <link rel="stylesheet" href="startsass/styles.css">
 
-      }
+</head>
 
-    .bg-1{
-        background-color: black;
-        background-repeat: no-repeat;
-        background-position:100%;
-        background-size:cover;
-        min-height:800px;
-        text-align:center;
-        position:relative;
-        color: white;
-    }
+<body>
+    <div class="container">
+<header>
+    <div class="headContainer">
+    <nav>
+        <img class="logo"src="img/lambda-black.png" alt="Logo">
 
-    .bg-2{
-      background: linear-gradient(#205966, #222123);
-        min-height:800px;
-       color: white;
-      font-size: 20px;
-      font-family: Rokkitt;
-    }
-    .bg-3{
-    background: linear-gradient(#5e191f, #443f4c);
-      min-height:800px;
-      color: white;
-      font-size: 20px;
-      font-family: Rokkitt;
-    }
-    .container-fluid {
-      padding-top: 90px;
-      padding-bottom: 20px;
-    }
-    .navbar{
-      padding-top: 5px;
-      padding-bottom: 5px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-    }
-    .navbar-nav li a:hover{
-      color: #1abc9c !important;
-    }
-    .bg-4{
-      background-color: #0c0c0c;
-      color: #ffffff;
-        font-family: Rokkitt;
-
-    }
-    .bg-5{
-      background: linear-gradient(#3c1d51, #383535);
-      font-family: Rokkitt;
-      color: white;
-      min-height:800px;
-      font-size: 20px;
-    }
-
-    .para-txt1{
-      color: white;
-      font-size: 20px;
-      font-family: Rokkitt;
-    }
-    .navbar-default {
-       background-color: black;
-       border-color: #000000;
-    }
-    .navbar-default .navbar-nav > li > a {
-       color: white; /*Change active text color here*/
-    }
-    .navbar-default .navbar-brand {
-        color: white;
-    }
-    .navbar-brand{
-      font-family: Cinzel;
-
-    }
-       position:absolute
-
-    .container1 {
-        position: relative;
-        width: 50%;
-    }
-
-    .image1 {
-      opacity: 1;
-
-      width: auto;
-      height: auto;
-      transition: .5s ease;
-      backface-visibility: hidden;
-    }
-
-    .somePadding{
-      padding-bottom: 40px;
-    }
-
-    .middle {
-      transition: .5s ease;
-      opacity: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, 50%)
-      text-align: center;
-
-    }
-
-    .container1:hover .image1 {
-      opacity: 0.3;
-    }
-
-    .container1:hover .middle {
-      opacity: 1;
-    }
-
-    .text {
-      background-color: #4CAF50;
-      color: white;
-      font-size: 16px;
-      padding: 16px 32px;
-    }
-.icon-size{
-  font-size:150px;
-
-}
-.AnimTxt{
-  color:#1abc9c;
-  font-size: 100px;
-  font-family: Share Tech Mono;
-
-}
-    </style>
-
-      <body>
-               <div class="row" id="about">
-        <div class="container-fluid bg-1 text-center">
-          <div class="col-sm-12">
-            <div class="AnimTxt" id="msg"/></div>
-
-        <br><h3>Who Am I?</h3>
-        <a href=" "><img src="https://s15.postimg.cc/ttukcfcl7/22045925_1736471469728716_7126917495395107127_n.jpg" class="img-responsive img-circle" style="display:inline" alt=" " /></a>
-        <br><br><br>
-      <p class="container para-txt1">Welcome to my website! I'm Erika, a freelance website developer and a
-        recent BSc graduate from the illustrious, Texas Southern University. I obtained my degree
-         in Computer Science, and managed to graduate with Magna Cum Laude honors.
-         In addition to my schooling, I taught myself web development using Free Code Camp,
-         and thoroughly enjoy creating websites that are efficient and appealing to the eye.
-         I am able to write code in the following languages: C++, Java, SQL, HTML/CSS, & JavaScript
-        (Familiarity with Python and R).
-
-        My ultimate goal is to become a software engineer for an awesome company one day! 
-        <i class="fa fa-desktop" style="font-size:20px;color:white;"></i>
-      </p>
-        </div>
-          </div>
-        </div>
-
-              <div class="row" id="work">
-        <div class="container-fluid bg-3 text-center">
-          <h3>Projects</h3>
-          <p>A few projects I've worked on. Click to view and check out more projects on my Github.</p>
-                <i class="fa fa-keyboard-o" style="font-size:20px;color:white;"></i></p><br>
-
-                <div class="container1">
-                  <a href="https://richardambrocio.000webhostapp.com/" target="_blank">
-                    <img class="somePadding image1"
-                    src='https://s20.postimg.cc/whpi21zwd/image1.jpg' border='0' alt='image1'/></a>
-                  </div>
-                  <br>
-
-                  <div class="container1">
-                    <a href="https://premiervaz.000webhostapp.com/" target="_blank">
-                      <img class="somePadding image1"
-                      src="https://s20.postimg.cc/ym9v3598t/IMG_7722_s_RGB.jpg" alt="IMG_7722_s_RGB"/></a>
-                    </div>
-                  <br>
-
-                  <div class="container1">
-                    <a href="https://littleomusic.000webhostapp.com/" target="_blank">
-                      <img class="somePadding image1"
-                      src="https://s20.postimg.cc/jdjxpdna5/IMG_7724_s_RGB.jpg" alt="IMG_7724_s_RGB"/></a>
-                  </div>
-                  <br>
-
-                <div>
-                 <p class="text-center">More on GitHub!
-              <a href="https://github.com/evzquz/" target="_blank">
-                  <i class="fa fa-github" id='github' style="font-size:50px;color:white;" aria-hidden="true"></i>
-              </a></p>&nbsp&nbsp&nbsp&nbsp
-        </div>
-      </div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="#">Products</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </nav>
     </div>
+</header>
 
+<img class="sub" src="img/jumbo.jpg" alt="subway path">
 
+        <section class="top-content">
+            <div class="text-container">
+                <h2>The Future</h2>
+                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
+            </div>
+            <div class="text-container">
+                <h2>The Past</h2>
+                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
+            </div>
+        </section>
+        
+        <section class="middle-content">
+        
+            <h2>Why Did It Have To Be Boxes...</h2>
+            
+            <div class="boxes">
+                <div class="box">Box 1</div>
+                <div class="box">Box 2</div>
+                <div class="box">Box 3</div>
+                <div class="box">Box 4</div>
+                <div class="box">Box 5</div>
+                <div class="box">Box 6</div>
+                <div class="box">Box 7</div>
+                <div class="box">Box 8</div>
+                <div class="box">Box 9</div>
+                <div class="box">Box 10</div>
+            </div>
+        
+        </section>
 
-        <div class="row" id="contact">
-        <div class="container-fluid bg-2 text-center">
-          <h3>CONTACT ME</h3>
-          <p>For any questions, concerns, or comments!</p>
-            <i class="fa fa-envelope-o" style="font-size:20px;color:white;"></i></p><br>
-            <p>email: vazqueze195@gmail.com<br>
-              phone: 281-219-8599
-            </p><br><br><br><br>
-            <p>Connect with me on these popular platforms!!!</p>
-            <br>
+        <section class="bottom-content">
 
+            <div class="text-container">
+                <h2>That's</h2>
+                <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
+            </div>
+            <div class="text-container">
+                <h2>No</h2>
+                <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
+            </div>
+            <div class="text-container">
+                <h2>Moon</h2>
+                <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
+            </div>
 
-                <a href="https://www.linkedin.com/in/erika-vazquez-12766312a/" target="_blank"><i class="fa fa-linkedin-square" id='linkedin' style="font-size:60px;color:white;" aria-hidden="true"></i></a>&nbsp&nbsp&nbsp&nbsp
-
-              <a href="https://github.com/evzquz/" target="_blank"><i class="fa fa-github" id='github' style="font-size:60px;color:white;" aria-hidden="true"></i></a>&nbsp&nbsp&nbsp&nbsp
-
-              <a href="https://www.instagram.com/evzquz/" target="_blank"><i class="fa fa-instagram" id='instagram' style="font-size:60px;color:white;" aria-hidden="true"></i></a>&nbsp&nbsp&nbsp&nbsp
-
-              <a href="https://www.freecodecamp.com/evzquz" target="_blank"><i class="fa fa-free-code-camp"  id='fcc' style="font-size:60px;color:white;" aria-hidden="true"></i></a>&nbsp&nbsp&nbsp&nbsp
-
-               <a href="https://www.youtube.com/user/ERIKA7103" target="_blank"><i class="fa fa-youtube" id='youtube' style="font-size:60px;color:white;" aria-hidden="true"></i></a>&nbsp&nbsp&nbsp&nbsp
-          </div>
-        </div>
-
-        <div class="row" id="work">
-        <div class="container-fluid bg-5 text-center">
-          <h3>MY TOOL BOX</h3>
-           <i class="fa fa-wrench" style="font-size:20px;color:white;"></i></p>
-          <br><br>
-          <i class="devicon-atom-original-wordmark icon-size"></i>
-          <i class="devicon-bootstrap-plain-wordmark colored icon-size"></i>
-        <i class="devicon-css3-plain-wordmark colored icon-size"></i>
-          <i class="devicon-html5-plain-wordmark colored icon-size"></i>
-          <i class="devicon-javascript-plain colored icon-size"></i>
-
-          </div>
-          </div>
-      </body>
-
-<div class="row">
-      <footer class="container-fluid bg-4 text-center">
-        <p>Copyright © 2017 Erika Vazquez
-    </p>
-      </footer>
-      </div>
-    </html>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script>
-    $('#linkedin,#github,#instagram,#twitter,#fcc,#youtube').mouseenter(function() {
-        $(this).effect('bounce',3000);
-    });
-    </script>
-
-    <script>
-    var showText = function (target, message, index, interval) {
-      if (index < message.length) {
-        $(target).append(message[index++]);
-        setTimeout(function () { showText(target, message, index, interval); }, interval);
-      }
-    }
-
-    $(function () {
-
-      showText("#msg", "Hello, World!", 0, 200);
-
-    });
-    </script>
+        </section>
+        
+        <footer>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </nav>
+        </footer>
+    </div><!-- container -->        
+</body>
+</html>
