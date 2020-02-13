@@ -9,12 +9,25 @@ nav {
   display: inline-flex;
   justify-content: space-evenly;
 }
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
 .logo {
   width: 20%;
 }
+header {
+  background-color: #353333;
+}
+
 body {
   font: 100% Helvetica, sans-serif;
   color: #222020;
+}
+
+#banner {
+  background-color: black;
 }
 
 .container, .top-content {
