@@ -12,22 +12,4 @@
 @import 'components/navigation';
 @import 'components/sections';
 
-.container, .top-content{
-    background: $blue-peach;
-    font-family: 'Roboto';
-    text-align: center;
-    @include mobile {
-        color:green;
-    }
-    .top-content{
-        margin-left: 1.5em;
-        margin-right: 1.5em;
 
-    }
-}
- 
-
-footer{
-    background-color: rgba(36, 37, 37, 0.993);
-    color:white;
-}

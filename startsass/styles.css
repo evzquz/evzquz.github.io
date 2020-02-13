@@ -17,8 +17,12 @@ nav a {
 .logo {
   width: 20%;
 }
-header {
-  background-color: #353333;
+#header .inner {
+  background-color: #0e0d0d;
+}
+
+html {
+  background-color: #006eff;
 }
 
 body {
@@ -27,27 +31,42 @@ body {
 }
 
 #banner {
-  background-color: black;
+  background-image: linear-gradient(#2f81fd, #f8b894, black);
+  height: 200px;
 }
 
-.container, .top-content {
-  background: linear-gradient(#e68964, #4770f8);
-  font-family: "Roboto";
+#one {
+  background-color: #020202;
+  color: peachpuff;
+  height: 600px;
+  padding-top: 30px;
+}
+#one .inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#one .inner article {
+  border: 1px solid #e9b169;
+  width: 30%;
   text-align: center;
-}
-@media (min-width: 500px) {
-  .container, .top-content {
-    color: green;
-  }
-}
-.container .top-content, .top-content .top-content {
-  margin-left: 1.5em;
-  margin-right: 1.5em;
+  height: 300px;
 }
 
 footer {
-  background-color: rgba(36, 37, 37, 0.993);
-  color: white;
+  height: 100px;
+  background-color: #1f1e1e;
+  color: #0066ff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 25px;
+}
+footer h5, footer h6 {
+  margin-top: 0px;
+}
+footer h6 {
+  margin-bottom: 2px;
 }
 
 /*# sourceMappingURL=styles.css.map */
