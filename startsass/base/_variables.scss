@@ -1,4 +1,12 @@
+
+// mobile phones
 $breakpoint-mobile: 500px;
-@media (min-width: $breakpoint-mobile) {
-  
-}
+$blue-peach:  linear-gradient(#e68964, #4770f8);
+$link-color:white;
+$link-hover:#00aedb;
+$link-vertical-padding:15px;      //Controls Menu top & bottom padding
+$link-horizontal-padding:20px;    //Contols Menu left & right padding
+$menu-background:#353535;        //Control Menu Color Scheme
+
+
+
