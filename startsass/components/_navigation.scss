@@ -1,0 +1,23 @@
+.inner{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+nav{
+    width: 80%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    a{
+
+    }
+}
+.logo{
+    width: 20%;
+    img{
+    }
+    @include mobile{
+
+    }
+    
+}
+

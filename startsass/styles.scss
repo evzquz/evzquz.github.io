@@ -13,34 +13,19 @@
 @import 'components/sections';
 
 .container, .top-content{
-    background: linear-gradient(#e66465, #9198e5);
+    background: $blue-peach;
     font-family: 'Roboto';
     text-align: center;
+    @include mobile {
+        color:green;
+    }
     .top-content{
         margin-left: 1.5em;
         margin-right: 1.5em;
 
     }
 }
-.nav{
-    display: flex; /* or inline-flex */
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-}
-.headContainer{
-    background-color: rgba(36, 37, 37, 0.993);
-    font-family: Verdana sans-serif;
-    color: rgba(239, 241, 247, 0.938);
-    .nav-items{
-       // width:250px;;
-    }
-    
-}
-
-.logo{
-    width:20%;
-}
+ 
 
 footer{
     background-color: rgba(36, 37, 37, 0.993);
