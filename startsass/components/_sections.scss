@@ -40,17 +40,39 @@ body {
     }
   }
 }
+//Hover CSS animations
+.hvr-grow {
+  //display: inline-block;
+  //vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
 
-
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(2.1);
+}
+//
 
 footer{
-  height: 100px;
+  height: 150px;
   background-color: rgb(31, 30, 30);
   color: rgb(0, 102, 255);
   display: flex;
   flex-direction: column;
   text-align: center;
   padding-top:25px; 
+  .social-icons img{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 30px;
+    
+  }
   h5, h6{
     margin-top: 0px;
   }
@@ -58,6 +80,8 @@ footer{
     margin-bottom: 2px; 
 
   }
+ img:hover, img:active {font-size: 150%;}
+
 }
 
 

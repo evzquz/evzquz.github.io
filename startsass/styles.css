@@ -13,6 +13,9 @@ nav a {
   text-decoration: none;
   color: white;
 }
+nav a:hover {
+  color: #2f81fd;
+}
 
 .logo {
   width: 20%;
@@ -60,8 +63,23 @@ body {
   color: whitesmoke;
 }
 
+.hvr-grow {
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(2.1);
+}
+
 footer {
-  height: 100px;
+  height: 150px;
   background-color: #1f1e1e;
   color: #0066ff;
   display: flex;
@@ -69,11 +87,19 @@ footer {
   text-align: center;
   padding-top: 25px;
 }
+footer .social-icons img {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  width: 30px;
+}
 footer h5, footer h6 {
   margin-top: 0px;
 }
 footer h6 {
   margin-bottom: 2px;
+}
+footer img:hover, footer img:active {
+  font-size: 150%;
 }
 
 /*# sourceMappingURL=styles.css.map */
