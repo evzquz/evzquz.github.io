@@ -2,30 +2,98 @@
     display: inline-flex;
     align-items: center;
     width: 100%;
+
 }
 nav{
-    width: 80%;
+    width: 76%;
     display: inline-flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    @include mobile{
+        overflow: hidden;
+        background-color: #333;
+      }
+    
     a{
     text-decoration: none;
     color:white;
+    @include mobile{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
     }
     a:hover{
-        color: rgb(47, 129, 253);
+        color: rgb(67, 141, 252);
+        @include mobile{
+            background-color: #ddd;
+            color: black;
+        }
     }
 }
+.topnav .icon{
+    display:none;
+}
+//mobile navbar
+  
+  .topnav a.active {
+      
+    background-color: #4CAF50;
+    color: white;
+  }  
+.topnav a:not(:first-child) {
+    @include mobile{
+    display: none;
+    }
+}
+.topnav a.icon {
+    @include mobile{
+    float: right;
+    display: block;
+  }
+}
+.topnav.responsive {
+    @include mobile{
+    position: relative;
+    }
+}
+  .topnav.responsive .icon {
+      @include mobile{
+    position: absolute;
+    right: 0;
+    top: 0;
+      }
+  }
+  .topnav.responsive a {
+      @include mobile{
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+//
 .logo{
     width: 20%;
-    img{
-    }
-    @include mobile{
-
-    }
+    padding-left:15px;
     
+    @include mobile{
+        width:40%;
+        padding-left: 0px;
+    }  
 }
+
 #header .inner{
     background-color: rgb(14, 13, 13);
+    @include mobile{
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 //jump to top arrow

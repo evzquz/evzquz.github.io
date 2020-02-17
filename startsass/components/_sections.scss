@@ -21,15 +21,25 @@ body {
   color: rgb(47, 129, 253);
   height: 600px;
   padding-top: 30px;
+  @include mobile{
+    height:auto;
+  }
   .inner{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    @include mobile{
+      flex-direction: column;
+    }
     article{
       border: 1px solid rgb(233, 177, 105);
       width: 30%;
       text-align: center;
       height:300px;
+      @include mobile{
+        width:99%;
+        height: auto;
+      }
       img{
         width: 100px;
         padding-top: 30px;
