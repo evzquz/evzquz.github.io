@@ -5,23 +5,101 @@
 }
 
 nav {
-  width: 80%;
+  width: 76%;
   display: inline-flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  nav {
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    flex-direction: column;
+  }
 }
 nav a {
   text-decoration: none;
   color: white;
 }
+@media (max-width: 500px) {
+  nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+}
 nav a:hover {
-  color: #2f81fd;
+  color: #438dfc;
+}
+@media (max-width: 500px) {
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .topnav a.icon {
+    float: center;
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .topnav.responsive {
+    position: relative;
+  }
+}
+
+@media (max-width: 500px) {
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
 
 .logo {
   width: 20%;
+  padding-left: 15px;
 }
+@media (max-width: 500px) {
+  .logo {
+    width: 40%;
+    padding-left: 0px;
+  }
+}
+
 #header .inner {
   background-color: #0e0d0d;
+}
+@media (max-width: 500px) {
+  #header .inner {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 #back2Top {
@@ -71,16 +149,32 @@ body {
   height: 600px;
   padding-top: 30px;
 }
+@media (max-width: 500px) {
+  #one {
+    height: auto;
+  }
+}
 #one .inner {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+}
+@media (max-width: 500px) {
+  #one .inner {
+    flex-direction: column;
+  }
 }
 #one .inner article {
   border: 1px solid #e9b169;
   width: 30%;
   text-align: center;
   height: 300px;
+}
+@media (max-width: 500px) {
+  #one .inner article {
+    width: 99%;
+    height: auto;
+  }
 }
 #one .inner article img {
   width: 100px;
