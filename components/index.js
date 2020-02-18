@@ -18,12 +18,20 @@ $(document).ready(function() {
 });
  /*Scroll to top when arrow up clicked END*/
 
+ //Responsive Navigation menu 
  function myFunction() {
     var x = document.getElementById("nav");
     if (x.className === "topnav") {
-      x.className += " responsive";
+      x.className += "responsive";
     } else {
       x.className = "topnav";
     }
   }
+      //toggle slowly animation
+  $( "#iconClick" ).click(function() {
+    $( "a" ).slideToggle( "slow", function() {
+      $(this).toggleClass("full_list-expanded").css('display', '');
+      // Animation complete.
+    });
+  });
 
