@@ -159,9 +159,26 @@ body {
   background-image: linear-gradient(#2f81fd, #f8b894, black);
   height: 200px;
 }
+#banner .inner img {
+  padding-right: 20%;
+}
 @media (max-width: 500px) {
   #banner .inner img {
     width: 100%;
+    padding-right: 0%;
+  }
+}
+
+.announcement button {
+  border-radius: 10px;
+  border-color: #d19341;
+  background-color: #303131;
+  color: #f1f0ee;
+  width: 200px;
+}
+@media (max-width: 500px) {
+  .announcement button {
+    display: none;
   }
 }
 

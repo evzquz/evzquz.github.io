@@ -15,12 +15,23 @@ body {
  background-image: linear-gradient(rgb(47, 129, 253), rgb(248, 184, 148),black);
  height: 200px;
  .inner img{
+  padding-right: 20%;
    @include mobile{
      width: 100%;
+     padding-right: 0%;
    }
  }
 }
-
+.announcement button{
+  border-radius: 10px;
+  border-color: rgb(209, 147, 65);
+background-color: rgb(48, 49, 49);
+color: rgb(241, 240, 238);
+width: 200px;
+@include mobile{
+  display: none;
+}
+}
 #one{
   background-color: rgb(2, 2, 2);
   color: rgb(47, 129, 253);
