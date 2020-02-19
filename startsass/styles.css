@@ -159,6 +159,11 @@ body {
   background-image: linear-gradient(#2f81fd, #f8b894, black);
   height: 200px;
 }
+@media (max-width: 500px) {
+  #banner .inner img {
+    width: 100%;
+  }
+}
 
 #one {
   background-color: #020202;
