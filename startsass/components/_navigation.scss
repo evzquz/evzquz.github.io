@@ -10,7 +10,8 @@ nav{
     justify-content: space-between;
     @include mobile{
         overflow: hidden;
-        background-color: #333;
+        background-color: rgb(46, 45, 45);
+        border-top: black solid 2px;;
         flex-direction: column;
         width: 100%;
       }
@@ -88,14 +89,17 @@ nav{
     padding-left:15px;
     
     @include mobile{
-        width:40%;
+        width:100%;
         padding-left: 0px;
+        display: inline-flex;
+        justify-content: center;
     }  
 }
 
 #header .inner{
-    background-color: rgb(14, 13, 13);
+    background-color: rgb(49, 48, 48);
     @include mobile{
+        
         display: inline-flex;
         flex-direction: column;
         justify-content: center;

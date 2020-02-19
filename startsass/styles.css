@@ -12,7 +12,8 @@ nav {
 @media (max-width: 500px) {
   nav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #2e2d2d;
+    border-top: black solid 2px;
     flex-direction: column;
     width: 100%;
   }
@@ -96,13 +97,15 @@ nav a:hover {
 }
 @media (max-width: 500px) {
   .logo {
-    width: 40%;
+    width: 100%;
     padding-left: 0px;
+    display: inline-flex;
+    justify-content: center;
   }
 }
 
 #header .inner {
-  background-color: #0e0d0d;
+  background-color: #313030;
 }
 @media (max-width: 500px) {
   #header .inner {
