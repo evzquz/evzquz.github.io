@@ -10,7 +10,7 @@ body {
   color: $primary-color;
 }
 
-//HOME PAGE
+//HOME PAGE *****************
 #banner{
  background-image: linear-gradient(rgb(47, 129, 253), rgb(248, 184, 148),black);
  height: 200px;
@@ -52,6 +52,16 @@ body {
     }
   }
 }
+//
+
+//**********ABOUT***********
+#about-one{
+  height:700px;
+  color: white;
+}
+//
+
+
 //Hover CSS animations
 .hvr-grow {
   //display: inline-block;
@@ -96,4 +106,3 @@ footer{
 
 }
 
-//not updating

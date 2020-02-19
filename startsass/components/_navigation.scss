@@ -103,7 +103,7 @@ nav{
 #header .inner{
     background-color: rgb(10, 10, 10);
     @include mobile{
-        
+        background-color: rgb(46, 45, 45);
         display: inline-flex;
         flex-direction: column;
         justify-content: center;

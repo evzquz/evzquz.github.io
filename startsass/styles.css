@@ -112,6 +112,7 @@ nav a:hover {
 }
 @media (max-width: 500px) {
   #header .inner {
+    background-color: #2e2d2d;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
@@ -200,6 +201,11 @@ body {
   color: whitesmoke;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+#about-one {
+  height: 700px;
+  color: white;
 }
 
 .hvr-grow {
