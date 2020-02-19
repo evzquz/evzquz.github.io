@@ -22,7 +22,7 @@ nav{
     @include mobile{
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: rgb(0, 102, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -30,9 +30,9 @@ nav{
     }
     }
     a:hover{
-        color: rgb(67, 141, 252);
+        color: rgb(67, 141, 252) !important; 
         @include mobile{
-            background-color: rgb(0, 102, 255);
+            background-color: rgb(88, 88, 88);
             color: black;
         }
     }
@@ -43,9 +43,8 @@ nav{
 //mobile navbar
   
   .topnav a.active {
-      
-    background-color: #4CAF50;
-    color: white;
+    color: rgb(255, 81, 0);
+
   }  
 .topnav a:not(:first-child) {
     @include mobile{
@@ -81,6 +80,8 @@ nav{
 
 .full_list-expanded {
     display: block;
+    color: rgb(218, 161, 87);
+
 }
 
 //
