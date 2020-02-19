@@ -18,7 +18,7 @@ nav{
     
     a{
     text-decoration: none;
-    color:white;
+    color:rgb(240, 186, 140);
     @include mobile{
     float: left;
     display: block;
@@ -80,7 +80,7 @@ nav{
 
 .full_list-expanded {
     display: block;
-    color: rgb(218, 161, 87);
+    color: rgb(214, 163, 95);
 
 }
 
@@ -88,6 +88,9 @@ nav{
 .logo{
     width: 20%;
     padding-left:15px;
+    img{
+        width: 100px;
+    }
     
     @include mobile{
         width:100%;
@@ -98,7 +101,7 @@ nav{
 }
 
 #header .inner{
-    background-color: rgb(49, 48, 48);
+    background-color: rgb(10, 10, 10);
     @include mobile{
         
         display: inline-flex;
