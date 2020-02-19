@@ -26,7 +26,7 @@ nav a {
   nav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #0066ff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -34,11 +34,11 @@ nav a {
   }
 }
 nav a:hover {
-  color: #438dfc;
+  color: #438dfc !important;
 }
 @media (max-width: 500px) {
   nav a:hover {
-    background-color: #0066ff;
+    background-color: #585858;
     color: black;
   }
 }
@@ -48,8 +48,7 @@ nav a:hover {
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+  color: #ff5100;
 }
 
 @media (max-width: 500px) {
@@ -89,6 +88,7 @@ nav a:hover {
 
 .full_list-expanded {
   display: block;
+  color: #daa157;
 }
 
 .logo {
@@ -143,7 +143,7 @@ nav a:hover {
 }
 
 html {
-  background-color: #006eff;
+  background-color: #030303;
 }
 
 body {
