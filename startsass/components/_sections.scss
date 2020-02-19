@@ -72,9 +72,48 @@ width: 200px;
 
 //**********ABOUT***********
 #about-one{
-  height:700px;
+  height:auto;
   color: white;
+  .inner article{
+    border: 2px solid rgb(0, 102, 255);
+    width: 100%;
+    padding-bottom: 50px;
+  }
 }
+#about-one .inner{
+  display: flex;
+  flex-direction: column;
+}
+.team-content{
+  @include mobile{
+    display: flex;
+    flex-direction: row;
+  }
+}
+.team-pics{
+  display: flex;
+  justify-content: space-around;
+  @include mobile{
+    width:49%;
+    flex-direction: column;
+  }
+}
+.team-descp{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  @include mobile{
+    width: 49%;
+    flex-direction: column;
+  }
+}
+.team-pics img, .team-descp h4{
+  width:200px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+
 //
 
 
