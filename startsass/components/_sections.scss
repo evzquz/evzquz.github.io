@@ -114,8 +114,23 @@ width: 200px;
   border-radius: 50%;
   text-align: center;
 }
+//
 
-
+//**********WORK***********
+#work-one{
+  .inner{
+    display: flex;
+    justify-content: center;
+  }
+  .inner article{
+  width: 75%;
+  border: solid 2px red;
+  height: auto;
+  padding-bottom: 50px;
+  color: white;
+  text-align: center;
+  }
+}
 //
 
 

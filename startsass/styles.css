@@ -276,6 +276,19 @@ body {
   text-align: center;
 }
 
+#work-one .inner {
+  display: flex;
+  justify-content: center;
+}
+#work-one .inner article {
+  width: 75%;
+  border: solid 2px red;
+  height: auto;
+  padding-bottom: 50px;
+  color: white;
+  text-align: center;
+}
+
 .hvr-grow {
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
