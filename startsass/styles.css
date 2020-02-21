@@ -283,7 +283,7 @@ body {
 }
 #work-one .inner article {
   width: 75%;
-  border: solid 2px red;
+  border: solid 2px #e9b169;
   height: auto;
   padding-bottom: 50px;
   color: white;
