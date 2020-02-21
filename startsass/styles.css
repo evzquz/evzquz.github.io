@@ -289,10 +289,20 @@ body {
   color: white;
   text-align: center;
 }
+@media (max-width: 500px) {
+  #work-one .inner article {
+    width: 100%;
+  }
+}
 
 .vid-photo {
   display: flex;
   flex-direction: row;
+}
+@media (max-width: 500px) {
+  .vid-photo {
+    flex-direction: column;
+  }
 }
 
 .inner .vid-photo article {
@@ -300,13 +310,28 @@ body {
   height: auto;
   text-align: center;
 }
+@media (max-width: 500px) {
+  .inner .vid-photo article {
+    width: 90%;
+  }
+}
 
 #photos {
   padding-right: 10px;
 }
+@media (max-width: 500px) {
+  #photos {
+    padding-right: 0px;
+  }
+}
 
 #vids {
   padding-left: 10px;
+}
+@media (max-width: 500px) {
+  #vids {
+    padding-left: 0px;
+  }
 }
 
 .hvr-grow {

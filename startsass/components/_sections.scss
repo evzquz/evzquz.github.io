@@ -130,22 +130,38 @@ width: 200px;
   padding-bottom: 50px;
   color: white;
   text-align: center;
+  @include mobile{
+    width:100%;
+  }
   }
 }
 .vid-photo{
   display: flex;
   flex-direction: row;
+  @include mobile{
+    flex-direction:column;
+  }
 }
 .inner .vid-photo article {
 border: solid 2px blue !important;
 height:auto;
 text-align: center;
+@include mobile{
+  width:90%;
+}
 }
 #photos{
 padding-right:10px;
+@include mobile{
+  padding-right: 0px;
+}
+
 }
 #vids{
   padding-left: 10px;
+  @include mobile{
+    padding-left: 0px;
+  }
 }
 //
 
