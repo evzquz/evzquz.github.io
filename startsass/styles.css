@@ -279,6 +279,7 @@ body {
 #work-one .inner {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 #work-one .inner article {
   width: 75%;
@@ -287,6 +288,25 @@ body {
   padding-bottom: 50px;
   color: white;
   text-align: center;
+}
+
+.vid-photo {
+  display: flex;
+  flex-direction: row;
+}
+
+.inner .vid-photo article {
+  border: solid 2px blue !important;
+  height: auto;
+  text-align: center;
+}
+
+#photos {
+  padding-right: 10px;
+}
+
+#vids {
+  padding-left: 10px;
 }
 
 .hvr-grow {
