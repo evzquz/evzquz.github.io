@@ -121,6 +121,7 @@ width: 200px;
   .inner{
     display: flex;
     justify-content: center;
+    flex-direction: column;;
   }
   .inner article{
   width: 75%;
@@ -130,6 +131,21 @@ width: 200px;
   color: white;
   text-align: center;
   }
+}
+.vid-photo{
+  display: flex;
+  flex-direction: row;
+}
+.inner .vid-photo article {
+border: solid 2px blue !important;
+height:auto;
+text-align: center;
+}
+#photos{
+padding-right:10px;
+}
+#vids{
+  padding-left: 10px;
 }
 //
 
