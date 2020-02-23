@@ -332,6 +332,24 @@ body {
   }
 }
 
+#service-one .inner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#service-one .inner article {
+  width: 75%;
+  height: auto;
+  padding-bottom: 50px;
+  color: white;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  #service-one .inner article {
+    width: 100%;
+  }
+}
+
 .hvr-grow {
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
