@@ -35,3 +35,9 @@ $(document).ready(function() {
     });
   });
 
+  //banner text animation
+  tply.animate(
+        document.getElementById("tply-source"),
+        document.getElementById("tply-destination")
+      );
+
