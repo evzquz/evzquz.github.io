@@ -201,7 +201,7 @@ form{
   padding-bottom: 50px;
   color: white;
   text-align: center;
-  padding-bottom:50px;
+  padding-top:50px;
   @include mobile{
     width:100%;
   }
@@ -230,14 +230,44 @@ form{
 }
 //
 
+.footer-content{
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+@include mobile{
+  justify-content: space-between;
+
+}
+}
+.footer-center{
+  width:40%;
+  border-right: 2px rgb(230, 165, 91) solid;
+  @include mobile{
+    border-right: solid black 0px;
+  }
+
+}
+.contact-info{
+  width:30%;
+  @include mobile{
+    width: 40%;
+  }
+  h4{
+    color: white;
+  }
+  p{
+    color: rgb(110, 68, 52);
+  }
+}
+
 footer{
-  height: 150px;
+  height: auto;
   background-color: rgb(31, 30, 30);
   color: rgb(0, 102, 255);
-  display: flex;
-  flex-direction: column;
   text-align: center;
   padding-top:25px; 
+  padding-bottom: 15px;
   .social-icons img{
     padding-top: 20px;
     padding-bottom: 15px;
