@@ -179,21 +179,33 @@ padding-right:10px;
   padding-bottom: 50px;
   color: white;
   text-align: center;
+  padding-bottom:50px;
   @include mobile{
     width:100%;
-  }
+  }   
   }
 }
 //////
 
 //************Contact ****************
-
-
-#contact-form .inner1{
-  border: 2px solid rgb(73, 73, 241);
-  border-radius: 10px;
+#contact-one{
+  .inner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+form{
   width: 100%;
-  text-align: left;
+  border: solid 2px rgb(233, 177, 105);
+  height: auto;
+  padding-bottom: 50px;
+  color: white;
+  text-align: center;
+  padding-bottom:50px;
+  @include mobile{
+    width:100%;
+  }
+  }
 }
 
 

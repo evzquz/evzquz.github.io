@@ -343,6 +343,7 @@ body {
   padding-bottom: 50px;
   color: white;
   text-align: center;
+  padding-bottom: 50px;
 }
 @media (max-width: 500px) {
   #service-one .inner article {
@@ -355,24 +356,19 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-#contact-one .inner article {
-  width: 75%;
+#contact-one form {
+  width: 100%;
+  border: solid 2px #e9b169;
   height: auto;
   padding-bottom: 50px;
   color: white;
   text-align: center;
+  padding-bottom: 50px;
 }
 @media (max-width: 500px) {
-  #contact-one .inner article {
+  #contact-one form {
     width: 100%;
   }
-}
-
-#contact-form {
-  background-color: #ecaf68;
-  border: 2px solid #4949f1;
-  border-radius: 10px;
-  width: 60%;
 }
 
 .hvr-grow {
