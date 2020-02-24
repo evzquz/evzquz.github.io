@@ -155,6 +155,10 @@ body {
   color: #222020;
 }
 
+h1 {
+  color: peachpuff;
+}
+
 #banner {
   background-image: linear-gradient(#2f81fd, #f8b894, black);
   height: 200px;

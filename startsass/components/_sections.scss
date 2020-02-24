@@ -9,6 +9,9 @@ body {
   font: 100% $font-stack;
   color: $primary-color;
 }
+h1{
+  color:peachpuff;
+}
 
 //HOME PAGE *****************
 #banner{
@@ -86,6 +89,9 @@ width: 200px;
   display: flex;
   flex-direction: column;
 }
+#tply-source {
+    //  display: none;
+    }
 .team-content{
   @include mobile{
     display: flex;
