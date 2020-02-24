@@ -244,10 +244,6 @@ h1 {
   flex-direction: column;
 }
 
-#tply-source {
-  display: none;
-}
-
 @media (max-width: 500px) {
   .team-content {
     display: flex;
