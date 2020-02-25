@@ -12,6 +12,9 @@ body {
 h1{
   color:peachpuff;
 }
+#banner .inner h1{
+  display:none;
+}
 
 //HOME PAGE *****************
 #banner{
@@ -102,7 +105,7 @@ width: 200px;
   display: flex;
   justify-content: space-around;
   @include mobile{
-    width:49%;
+    width:30%;
     flex-direction: column;
   }
 }
@@ -119,6 +122,9 @@ width: 200px;
   width:200px;
   border-radius: 50%;
   text-align: center;
+  @include mobile{
+    width:90%;
+  }
 }
 //
 
@@ -243,6 +249,7 @@ flex-direction: row;
 justify-content: flex-end;
 @include mobile{
   justify-content: space-between;
+  flex-direction: column-reverse;
 
 }
 }
@@ -251,13 +258,14 @@ justify-content: flex-end;
   border-right: 2px rgb(230, 165, 91) solid;
   @include mobile{
     border-right: solid black 0px;
+    width: 100%;
   }
 
 }
 .contact-info{
   width:30%;
   @include mobile{
-    width: 40%;
+    width: 100%;
   }
   h4{
     color: white;
