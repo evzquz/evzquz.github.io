@@ -159,6 +159,16 @@ h1 {
 h2 {
   color: peachpuff;
   text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 60px;
+}
+
+h3 {
+  font-family: "Bebas Neue";
+}
+
+p, h4, h5, h6 {
+  font-family: "Roboto";
 }
 
 #banner .inner h1 {
@@ -416,8 +426,7 @@ h2 {
 }
 
 .footer-center {
-  width: 40%;
-  border-right: 2px #e6a55b solid;
+  width: 100%;
 }
 @media (max-width: 500px) {
   .footer-center {
@@ -444,7 +453,7 @@ h2 {
 footer {
   height: auto;
   background-color: #1f1e1e;
-  color: #0066ff;
+  color: #e9b169;
   text-align: center;
   padding-top: 25px;
   padding-bottom: 15px;
