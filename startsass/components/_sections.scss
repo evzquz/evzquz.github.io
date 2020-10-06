@@ -1,4 +1,4 @@
-$font-stack:    Helvetica, sans-serif;
+$font-stack:    'Bebas Neue';
 $primary-color: rgb(204, 0, 255);
 
 html{
@@ -11,6 +11,15 @@ h1{
 h2{
   color:peachpuff;
   text-align: center;
+  font-family: $font-stack;
+  font-size: 60px;
+  
+}
+h3{
+  font-family: $font-stack;
+}
+p, h4, h5, h6{
+  font-family: 'Roboto';
 }
 #banner .inner h1{
   display:none;
@@ -257,8 +266,7 @@ justify-content: flex-end;
 }
 }
 .footer-center{
-  width:40%;
-  border-right: 2px rgb(230, 165, 91) solid;
+  width:100%;
   @include mobile{
     border-right: solid black 0px;
     width: 100%;
@@ -281,7 +289,7 @@ justify-content: flex-end;
 footer{
   height: auto;
   background-color: rgb(31, 30, 30);
-  color: rgb(0, 102, 255);
+  color: rgb(233, 177, 105);
   text-align: center;
   padding-top:25px; 
   padding-bottom: 15px;
@@ -289,7 +297,6 @@ footer{
     padding-top: 20px;
     padding-bottom: 15px;
     width: 30px;
-    
   }
   h5, h6{
     margin-top: 0px;
