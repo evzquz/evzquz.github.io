@@ -19,8 +19,10 @@ nav {
   }
 }
 nav a {
+  font-family: "Bebas Neue";
   text-decoration: none;
   color: #f0ba8c;
+  font-size: 30px;
 }
 @media (max-width: 500px) {
   nav a {
@@ -48,7 +50,7 @@ nav a:hover {
 }
 
 .topnav a.active {
-  color: #ff5100;
+  color: #a7a3a1;
 }
 
 @media (max-width: 500px) {
@@ -150,13 +152,13 @@ html {
   background-color: #030303;
 }
 
-body {
-  font: 100% Helvetica, sans-serif;
-  color: #222020;
-}
-
 h1 {
   color: peachpuff;
+}
+
+h2 {
+  color: peachpuff;
+  text-align: center;
 }
 
 #banner .inner h1 {
@@ -178,11 +180,12 @@ h1 {
 }
 
 .announcement button {
-  border-radius: 10px;
-  border-color: #d19341;
-  background-color: #303131;
-  color: #f1f0ee;
-  width: 200px;
+  border-radius: 20px;
+  border-color: #ebe8e4;
+  background-color: #313131;
+  color: #e9b169;
+  width: 250px;
+  height: 50px;
 }
 @media (max-width: 500px) {
   .announcement button {
