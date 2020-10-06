@@ -7,7 +7,6 @@ background-color: rgb(3, 3, 3);
 
 body {
   font: 100% $font-stack;
-  color: red;
 }
 h1{
   color:peachpuff;
@@ -38,6 +37,13 @@ height: 150px;
 @include mobile{
   display: none;
 }
+}
+#welcome{
+  .welcome-text{
+    h2{
+      color:red;
+    }
+  }
 }
 
 #one{
