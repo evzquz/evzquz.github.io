@@ -1,11 +1,16 @@
 $font-stack:    Helvetica, sans-serif;
-$primary-color: red;
+$primary-color: rgb(204, 0, 255);
 
 html{
 background-color: rgb(3, 3, 3);
 }
+
 h1{
   color:peachpuff;
+}
+h2{
+  color:peachpuff;
+  text-align: center;
 }
 #banner .inner h1{
   display:none;
@@ -24,24 +29,16 @@ h1{
  }
 }
 .announcement button{
-  border-radius: 10px;
-  border-color: rgb(209, 147, 65);
-background-color: rgb(48, 49, 49);
-color: rgb(241, 240, 238);
-width: 200px;
-height: 150px;
+  border-radius: 20px;
+  border-color: rgb(235, 232, 228);
+background-color: rgb(49, 49, 49);
+color: rgb(233, 177, 105);
+width: 250px;
+height: 50px;
 @include mobile{
   display: none;
 }
 }
-#welcome{
-  .welcome-text{
-    h2{
-      color:red;
-    }
-  }
-}
-
 #one{
   background-color: rgb(2, 2, 2);
   color: rgb(47, 129, 253);

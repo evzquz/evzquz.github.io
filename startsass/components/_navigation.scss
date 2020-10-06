@@ -17,8 +17,10 @@ nav{
       }
     
     a{
+    font-family: 'Bebas Neue';
     text-decoration: none;
     color:rgb(240, 186, 140);
+    font-size: 30px;
     @include mobile{
     float: left;
     display: block;
@@ -43,7 +45,7 @@ nav{
 //mobile navbar
   
   .topnav a.active {
-    color: rgb(255, 81, 0);
+    color: rgb(167, 163, 161);
 
   }  
 .topnav a:not(:first-child) {
