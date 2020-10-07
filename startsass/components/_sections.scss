@@ -252,6 +252,13 @@ form{
   }
   }
 }
+#contact-one .contact{
+  display: flex;
+  flex-direction: row;
+  .powr-web-form iframe{
+    height: 350px;
+  }
+}
 
 
 /////////
