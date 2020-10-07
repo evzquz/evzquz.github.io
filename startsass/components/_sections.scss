@@ -92,12 +92,22 @@ height: 50px;
 #about-one{
   height:auto;
   color: white;
+  padding: 50px 50px 50px 50px;
+
   
   .inner article{
-    border: 2px solid rgb(0, 102, 255);
     width: 100%;
     padding-bottom: 50px;
-    
+    .content header h3{
+      text-align: center;
+      font-size: 50px;
+      color: rgb(47, 129, 253);
+    }
+    .about-team header h3{
+      text-align: center;
+      font-size: 50px;
+      color: rgb(233, 177, 105);
+    }
   }
 }
 #about-one .inner{
@@ -157,6 +167,17 @@ height: 50px;
   @include mobile{
     width:100%;
   }
+  }
+  .inner article .content header h3{
+    font-size: 50px;
+  }
+  .inner article .vid-photo #photos header h3{
+    font-size: 50px;
+    color: rgb(47, 129, 253);
+  }
+  .inner article .vid-photo #vids header h3{
+    font-size: 50px;
+    color: rgb(233, 177, 105);
   }
 }
 .vid-photo{
