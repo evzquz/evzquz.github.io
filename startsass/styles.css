@@ -249,11 +249,21 @@ p, h4, h5, h6 {
 #about-one {
   height: auto;
   color: white;
+  padding: 50px 50px 50px 50px;
 }
 #about-one .inner article {
-  border: 2px solid #0066ff;
   width: 100%;
   padding-bottom: 50px;
+}
+#about-one .inner article .content header h3 {
+  text-align: center;
+  font-size: 50px;
+  color: #2f81fd;
+}
+#about-one .inner article .about-team header h3 {
+  text-align: center;
+  font-size: 50px;
+  color: #e9b169;
 }
 
 #about-one .inner {
@@ -318,6 +328,17 @@ p, h4, h5, h6 {
   #work-one .inner article {
     width: 100%;
   }
+}
+#work-one .inner article .content header h3 {
+  font-size: 50px;
+}
+#work-one .inner article .vid-photo #photos header h3 {
+  font-size: 50px;
+  color: #2f81fd;
+}
+#work-one .inner article .vid-photo #vids header h3 {
+  font-size: 50px;
+  color: #e9b169;
 }
 
 .vid-photo {
