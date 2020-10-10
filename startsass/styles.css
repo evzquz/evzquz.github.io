@@ -162,6 +162,11 @@ h2 {
   font-family: "Bebas Neue";
   font-size: 60px;
 }
+@media (max-width: 500px) {
+  h2 {
+    font-size: 30px;
+  }
+}
 
 h3 {
   font-family: "Bebas Neue";
@@ -292,6 +297,12 @@ p, h4, h5, h6 {
   height: auto;
   color: white;
   padding: 50px 50px 50px 50px;
+}
+@media (max-width: 500px) {
+  #about-one {
+    padding: 10px;
+    text-align: center;
+  }
 }
 #about-one .inner article {
   width: 100%;
@@ -440,6 +451,10 @@ p, h4, h5, h6 {
   }
 }
 
+#service-one .inner article h3 {
+  font-size: 50px;
+}
+
 #contact-one .inner {
   display: flex;
   justify-content: center;
@@ -463,6 +478,7 @@ p, h4, h5, h6 {
 #contact-one .contact {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 #contact-one .contact .powr-web-form iframe {
   height: 350px;
