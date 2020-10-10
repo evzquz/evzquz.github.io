@@ -211,6 +211,7 @@ p, h4, h5, h6 {
 }
 
 #welcome .welcome-text h2 {
+  padding-top: 30px;
   margin-bottom: 0px;
 }
 
@@ -227,7 +228,7 @@ p, h4, h5, h6 {
   /* Keeps the content on a single line */
   margin: 0 auto;
   /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.07em;
+  letter-spacing: 0.05em;
   /* Adjust as needed */
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
@@ -455,6 +456,9 @@ p, h4, h5, h6 {
   font-size: 50px;
 }
 
+#contact-one {
+  padding-bottom: 20px;
+}
 #contact-one .inner {
   display: flex;
   justify-content: center;
@@ -481,7 +485,7 @@ p, h4, h5, h6 {
   justify-content: center;
 }
 #contact-one .contact .powr-web-form iframe {
-  height: 350px;
+  height: 450px;
 }
 
 .hvr-grow {
